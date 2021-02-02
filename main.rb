@@ -1,13 +1,5 @@
-require "./player_class"
+require "./Player_class"
+require "./Question_class"
+require "./Game_class"
 
-
-
-
-while player_1.lives > 0 || player_2.lives >0 do
-
-    end
-end
-
-
-
-# Test
+game = Game.new
