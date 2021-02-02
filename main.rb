@@ -11,24 +11,6 @@ while player_1.lives > 0 || player_2.lives >0 do
   question = ""
   answer = num1 + num2
 
-  # QUESTIONS
-  puts "What is the answer ?"
-  puts "#{num1} + #{num2} ="
-
-  # ANSWERS
-  print "> "
-  player_answer = gets.chomp
-  # puts "Your answer is: #{player_answer}"
-
-    if answer == player_answer.to_i
-      puts "Yes! You are the best."
-      puts "You kept your #{player_1.lives} lives"
-    else
-      puts "Oh no! Not exactly..."
-      puts "The right answer was #{answer}."
-      player_1.lives -= 1
-      puts " You have #{player_1.lives} lives"
-
     end
 end
 
